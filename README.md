@@ -18,19 +18,19 @@ While the promotion has done a great job of bringing in business our staff has n
 
 Because of this you have been asked to consider implications, solutions and deployment of a mechanism to automatically guess orders, sounds like the perfect job for AI!
 
-### (25%) Given the data set, do a quick exploratory data analysis to get a feel for the distributions and biases of the data. Report any visualizations and findings used and suggest any other impactful business use cases for that data.
+# (25%) Given the data set, do a quick exploratory data analysis to get a feel for the distributions and biases of the data. Report any visualizations and findings used and suggest any other impactful business use cases for that data.
 
 #### This is found in exploring_the_data.ipynb
 
-### (30%) Consider implications of data collection, storage, and data biases you would consider relevant here considering Data Ethics, Business Outcomes, and Technical Implications
+# (30%) Consider implications of data collection, storage, and data biases you would consider relevant here considering Data Ethics, Business Outcomes, and Technical Implications
 
 #### This is found in Implications.md
 
-### (35%) Build a model to predict a customers order from their available information. You will be graded largely on your intent and process when designing the model, performance is secondary. It is strongly suggested that you use SKLearn for this model as to not take too much time. You may use any kind implementation you would like though, but it must be pickelable and have a “.predict()” method similar to SKLearn
+# (35%) Build a model to predict a customers order from their available information. You will be graded largely on your intent and process when designing the model, performance is secondary. It is strongly suggested that you use SKLearn for this model as to not take too much time. You may use any kind implementation you would like though, but it must be pickelable and have a “.predict()” method similar to SKLearn
 
 #### This is found in model_to_predict_order.ipynb and model_to_predict_order_time.ipynb (this one was just out of curiosity)
 
-### (10%) Given the work required to bring a solution like this to maturity and its performance, what considerations would you make to determine if this is a suitable course of action?
+# (10%) Given the work required to bring a solution like this to maturity and its performance, what considerations would you make to determine if this is a suitable course of action?
 
 #### I would make sure that the company has the infrastructure and ability to handle the load for inferencing new data before even thinking about deploying it first and foremost. Not to mention I would try to make very scrutinous tests that go through the dataset and check for any biases as well as make sure there is a diverse enough amount of data that the dataset reflects real world values. For example, I would not deploy this dataset into a business critical, or even non critical, application since it doesn't seem to reflect real world values reliably and misses a lot of useful information such as geographic location of the resturaunts, name of the resturaunts, majors outside of STEM, other grades besides 2nd and 3rd years, etc.
 
